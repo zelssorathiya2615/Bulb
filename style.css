@@ -1,0 +1,40 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    align-items: center;
+    min-height: 100vh;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    text-align: center;
+}
+#on{
+    background: green;
+    color: black;
+    font-size: larger;
+    border-radius: 10px;
+    border: none;
+    margin: 5px;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#on:hover{
+    background: rgb(4, 77, 2);
+    transition: ease;
+}
+#off{
+    background: red;
+    color: black;
+    font-size: larger;
+    border-radius: 10px;
+    border: none;
+    margin: 5px;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#off:hover{
+    background: rgb(121, 1, 1);
+    transition: ease;
+}
